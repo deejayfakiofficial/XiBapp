@@ -10,6 +10,7 @@ import UIKit
 @IBDesignable
 final class CustomView: UIView {
     
+    @IBOutlet var view: UIView!
     @IBOutlet weak var leftButton: UIButton!
     @IBOutlet weak var rightButton: UIButton!
     
@@ -30,10 +31,12 @@ final class CustomView: UIView {
    
     @IBAction func leftButtonTapped(_ sender: UIButton) {
         sender.shake()
+        view.backgroundColor = .black
     }
     
     @IBAction func rightButtonTapped(_ sender: UIButton) {
         sender.shake()
+        view.backgroundColor = .yellow
     }
     
     

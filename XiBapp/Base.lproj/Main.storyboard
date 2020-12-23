@@ -17,18 +17,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mgx-Os-NBJ" customClass="CustomView" customModule="XiBapp" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="mgx-Os-NBJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="3jI-82-x7f"/>
+                            <constraint firstAttribute="bottom" secondItem="mgx-Os-NBJ" secondAttribute="bottom" id="2j7-Wf-GeT"/>
+                            <constraint firstItem="mgx-Os-NBJ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="8wv-Eo-cXz"/>
                             <constraint firstItem="mgx-Os-NBJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ie8-4N-VdD"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mgx-Os-NBJ" secondAttribute="trailing" id="Lfc-cm-mOj"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mgx-Os-NBJ" secondAttribute="trailing" id="M3h-qr-kxB"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="mgx-Os-NBJ" secondAttribute="bottom" id="MLy-iI-czt"/>
                             <constraint firstItem="mgx-Os-NBJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fes-WV-ffN"/>
                         </constraints>
                     </view>
@@ -38,7 +38,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-197" y="113"/>
+            <point key="canvasLocation" x="-197.10144927536234" y="112.5"/>
         </scene>
     </scenes>
     <resources>
