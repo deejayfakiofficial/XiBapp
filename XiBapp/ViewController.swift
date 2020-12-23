@@ -9,9 +9,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var customView: CustomView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.customView.configureView(titleLB: "Left", titleRB: "Right", backgroundColor: .darkGray, cornerRadius: 20, tintColor: .white)
     }
 
 

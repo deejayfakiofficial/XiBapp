@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomView" customModule="XiBapp" customModuleProvider="target">
+            <connections>
+                <outlet property="leftButton" destination="fRZ-vk-dRY" id="t2M-1j-b4R"/>
+                <outlet property="rightButton" destination="2Aa-Dn-RP4" id="ibq-6p-nwZ"/>
+                <outlet property="view" destination="iN0-l3-epB" id="bSg-EK-XBx"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fRZ-vk-dRY">
+                    <rect key="frame" x="70" y="428" width="60" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="6Ar-98-JJa"/>
+                        <constraint firstAttribute="height" constant="40" id="Cj6-ZH-5oK"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="leftButtonTapped:" destination="-1" eventType="touchUpInside" id="Azh-UY-Yb2"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Aa-Dn-RP4">
+                    <rect key="frame" x="284" y="428" width="60" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="4Fk-30-Eer"/>
+                        <constraint firstAttribute="width" constant="60" id="jIg-AP-P1J"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="rightButtonTapped:" destination="-1" eventType="touchUpInside" id="8m9-Jo-Y9L"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fRZ-vk-dRY" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="70" id="2e1-C9-k5Q"/>
+                <constraint firstItem="fRZ-vk-dRY" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="GZS-Li-StG"/>
+                <constraint firstItem="2Aa-Dn-RP4" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="GgG-NC-Nyl"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="2Aa-Dn-RP4" secondAttribute="trailing" constant="70" id="Y8y-a4-I5g"/>
+            </constraints>
+            <point key="canvasLocation" x="-197" y="128"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
