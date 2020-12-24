@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.customView.configureView(titleLB: "Left", titleRB: "Right", backgroundColor: .darkGray, cornerRadius: 20, tintColor: .white)
+        self.customView.configureView(titleLB: "Yes", titleRB: "No", backgroundColor: .darkGray, cornerRadius: 20, tintColor: .white)
     }
 
 

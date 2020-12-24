@@ -29,13 +29,11 @@ final class CustomView: UIView {
     }
    
     @IBAction func leftButtonTapped(_ sender: UIButton) {
-        sender.shake()
-        view.backgroundColor = .black
+        view.backgroundColor = .yellow
     }
     
     @IBAction func rightButtonTapped(_ sender: UIButton) {
         sender.shake()
-        view.backgroundColor = .yellow
     }
     
     

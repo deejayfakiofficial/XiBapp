@@ -10,7 +10,7 @@ import UIKit
 
 class MMTGradientArcView: UIView {
 
-    var lineWidth: CGFloat = 600             { didSet { setNeedsDisplay(bounds) } }
+    var lineWidth: CGFloat = 10             { didSet { setNeedsDisplay(bounds) } }
     var startColor = UIColor.green          { didSet { setNeedsDisplay(bounds) } }
     var endColor = UIColor.yellow            { didSet { setNeedsDisplay(bounds) } }
     var startAngle:CGFloat = 0              { didSet { setNeedsDisplay(bounds) } }
