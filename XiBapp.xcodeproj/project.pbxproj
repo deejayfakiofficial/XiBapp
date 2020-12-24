@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84CBAB0725946F6B0063A352 /* MMTGradientArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CBAB0625946F6B0063A352 /* MMTGradientArcView.swift */; };
 		84FD2A4125931938000AB660 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD2A4025931938000AB660 /* AppDelegate.swift */; };
 		84FD2A4325931938000AB660 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD2A4225931938000AB660 /* SceneDelegate.swift */; };
 		84FD2A4525931938000AB660 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD2A4425931938000AB660 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84CBAB0625946F6B0063A352 /* MMTGradientArcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMTGradientArcView.swift; sourceTree = "<group>"; };
 		84FD2A3D25931938000AB660 /* XiBapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XiBapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FD2A4025931938000AB660 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84FD2A4225931938000AB660 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				84FD2A4625931938000AB660 /* Main.storyboard */,
 				84FD2A6125932F2A000AB660 /* CustomView.swift */,
 				84FD2A6425932F3B000AB660 /* CustomView.xib */,
+				84CBAB0625946F6B0063A352 /* MMTGradientArcView.swift */,
 				84FD2A6725932FF5000AB660 /* UIViewExtension.swift */,
 				84FD2A6A259345AF000AB660 /* UIButtonExtension.swift */,
 				84FD2A492593193B000AB660 /* Assets.xcassets */,
@@ -156,6 +159,7 @@
 				84FD2A4125931938000AB660 /* AppDelegate.swift in Sources */,
 				84FD2A4325931938000AB660 /* SceneDelegate.swift in Sources */,
 				84FD2A6B259345AF000AB660 /* UIButtonExtension.swift in Sources */,
+				84CBAB0725946F6B0063A352 /* MMTGradientArcView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

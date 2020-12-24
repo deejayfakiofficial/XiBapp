@@ -13,8 +13,7 @@ final class CustomView: UIView {
     @IBOutlet var view: UIView!
     @IBOutlet weak var leftButton: UIButton!
     @IBOutlet weak var rightButton: UIButton!
-    
-    
+
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.configureView()
@@ -50,4 +49,5 @@ final class CustomView: UIView {
         rightButton.layer.cornerRadius = cornerRadius
         rightButton.tintColor = tintColor
     }
+ 
 }
